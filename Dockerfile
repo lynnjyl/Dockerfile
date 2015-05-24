@@ -1,4 +1,5 @@
 FROM ubuntu
+MAINTAINER Yi-Ling Jia <lynnjyl@gmail.com>
 
 RUN     apt-get update  && \
         apt-get install -y openssh-server apache2 supervisor    && \
